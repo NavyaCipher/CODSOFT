@@ -1,7 +1,7 @@
 def add(x, y):
   return x + y
 
-def subtract(x, y):
+def sub(x, y):
   return x - y
 
 def multiply(x, y):
@@ -33,7 +33,7 @@ def calculator():
               result = add(num1, num2)
               print(f"Result: {result}")
           elif choice == "2":
-              result = subtract(num1, num2)
+              result = sub(num1, num2)
               print(f"Result: {result}")
           elif choice == "3":
               result = multiply(num1, num2)
